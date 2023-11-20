@@ -2,11 +2,19 @@
 new WOW().init();
 
 
-// Sticky top-navbar
-$(window).scroll(function () {
-  if ($(this).scrollTop() > 50) {
-    $('.sticky-top').css('top', '0px');
+//Scroll to top function
+let span = document.querySelector(".up");
+window.onscroll = function () {
+  // console.log(this.scrollY);
+  if (this.scrollY >= 800) {
+    span.classList.add("show");
   } else {
-    $('.sticky-top').css('top', '-100px');
+    span.classList.remove("show");
   }
-});
+};
+span.onclick = function () {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
+};

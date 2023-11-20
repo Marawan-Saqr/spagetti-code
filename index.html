@@ -3,7 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="assets/Images/Logo.png">
   <title>Spaghetti Code</title>
+  <!--Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@500&display=swap">
   <!--Bootstrap Css File-->
   <link rel="stylesheet" href="Css/bootstrap.min.css">
   <!--FontAwesome Css-->
@@ -18,9 +23,9 @@
   <!--Start section top-navbar-->
   <section class="top-navbar bg-white sticky-top">
     <div class="container">
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary wow animate__fadeInDown">
         <div class="container-fluid">
-          <a class="navbar-brand text-dark" href="index.html"><img src="assets/Images/Logo.png" alt="logo">SPAGHETTI CODE</a>
+          <a class="navbar-brand text-dark" href="index.html"><img src="assets/Images/Logo.png" alt="logo">SPAGHETTI <span>CODE</span></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fa-solid fa-bars"></i>
           </button>
@@ -30,7 +35,13 @@
                 <a class="nav-link text-dark" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-dark" href="#">About</a>
+                <a class="nav-link text-dark" aria-current="page" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#">Why Choose Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#">Our Team</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link text-dark" href="#">Portfolio</a>
@@ -57,30 +68,65 @@
   </section>
   <!--End section page-cover-->
 
+  <!--Start Section about-->
+  <section class="about mt-5 mb-5">
+    <div class="container">
+      <div class="row align-items-center justify-content-between">
+        <div class="col-lg-7">
+          <div class="left wow animate__backInLeft">
+            <h2>About Us</h2>
+            <h4>Lorem ipsum dolor sit ame</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus reiciendis, minima numquam voluptate vero expedita eius accusamus recusandae magnam quo molestiae amet. Vitae quae dignissimos, id omnis quisquam beatae recusandae.</p>
+            <button class="continue-application">
+              <div>
+                <div class="pencil"></div>
+                <div class="folder">
+                  <div class="top">
+                    <svg viewBox="0 0 24 27">
+                      <path d="M1,0 L23,0 C23.5522847,-1.01453063e-16 24,0.44771525 24,1 L24,8.17157288 C24,8.70200585 23.7892863,9.21071368 23.4142136,9.58578644 L20.5857864,12.4142136 C20.2107137,12.7892863 20,13.2979941 20,13.8284271 L20,26 C20,26.5522847 19.5522847,27 19,27 L1,27 C0.44771525,27 6.76353751e-17,26.5522847 0,26 L0,1 C-6.76353751e-17,0.44771525 0.44771525,1.01453063e-16 1,0 Z"></path>
+                    </svg>
+                  </div>
+                  <div class="paper"></div>
+                </div>
+              </div>
+              Continue Application
+          </button>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="right wow animate__backInRight">
+            <img src="assets/Images/about.jpg" alt="image" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--End Section about-->
+
   <!--Start Section why-choose-us-->
   <section class="why-choose-us mt-5 mb-5">
     <div class="container">
-      <div class="content text-center">
+      <div class="content text-center wow animate__bounceIn">
         <h2>Why Choose Us</h2>
         <p>Lorem, ipsum dolor similique quasi ducimus quisquam explicabo ad excepturi et cupiditate</p>
       </div>
       <div class="row mt-5">
         <div class="col-md-6 col-lg-4">
-          <div class="box text-center">
+          <div class="box text-center wow animate__fadeInLeft">
             <i class="fa-solid fa-house-chimney mb-4"></i>
             <h4>Handpicked Hotels</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing el</p>
           </div>
         </div>
         <div class="col-md-6 col-lg-4">
-          <div class="box text-center">
+          <div class="box text-center wow animate__fadeInDown">
             <i class="fa-solid fa-earth-americas mb-4"></i>
             <h4>World Class Services</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing el</p>
           </div>
         </div>
         <div class="col-md-6 col-lg-4">
-          <div class="box text-center">
+          <div class="box text-center wow animate__fadeInRight">
             <i class="fa-solid fa-money-bills mb-4"></i>
             <h4>Best Price Guarantee</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing el</p>
@@ -94,7 +140,7 @@
   <!--Start Section trip-->
   <section class="trip bg-black text-white pt-5 pb-5">
     <div class="container">
-      <div class="content text-center">
+      <div class="content text-center wow fadeIn">
         <h2>This Trip Will Be The Best</h2>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum praesentium ad aliquam corrupti commodi non voluptatum aspernatur nesciunt itaque ea voluptas laudantium tempore perspiciatis quia dignissimos animi consequatur, debitis doloremque!</p>
       </div>
@@ -102,24 +148,103 @@
   </section>
   <!--End Section trip-->
 
+  <!--Start Section our-team-->
+  <section class="our-team mt-5 mb-5">
+    <div class="container">
+      <h2 class="text-center">Our Team</h2>
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="box text-center wow animate__fadeInLeft">
+            <img src="assets/Images/Person.jpg" alt="person" class="img-fluid">
+            <h4>Marawan Mahmoud</h4>
+            <p>Web Developer</p>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="box text-center wow animate__fadeInLeft">
+            <img src="assets/Images/Person.jpg" alt="person" class="img-fluid">
+            <h4>Marawan Mahmoud</h4>
+            <p>Web Developer</p>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="box text-center wow animate__fadeInRight">
+            <img src="assets/Images/Person.jpg" alt="person" class="img-fluid">
+            <h4>Marawan Mahmoud</h4>
+            <p>Web Developer</p>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="box text-center wow animate__fadeInRight">
+            <img src="assets/Images/Person.jpg" alt="person" class="img-fluid">
+            <h4>Marawan Mahmoud</h4>
+            <p>Web Developer</p>
+          </div>
+        </div>  
+      </div>
+    </div>
+  </section>
+  <!--End Section our-team-->
 
+  <!--Start footer-->
+  <footer class="bg-black text-white pt-5 pb-5">
+    <div class="container">
+      <h2 class="mb-5">SPAGHETTI CODE</h2>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="box wow animate__flash">
+            <ul>
+              <h4>Quick Links</h4>
+              <li><a href="" class="text-white">Home</a></li>
+              <li><a href="" class="text-white">About</a></li>
+              <li><a href="" class="text-white">Portfolio</a></li>
+              <li><a href="" class="text-white">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="box wow animate__flash">
+            <ul>
+              <h4>Important Links</h4>
+              <li><a href="" class="text-white">Home</a></li>
+              <li><a href="" class="text-white">About</a></li>
+              <li><a href="" class="text-white">Portfolio</a></li>
+              <li><a href="" class="text-white">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="box wow animate__flash">
+            <ul>
+              <h4>Top Links</h4>
+              <li><a href="" class="text-white">Home</a></li>
+              <li><a href="" class="text-white">About</a></li>
+              <li><a href="" class="text-white">Portfolio</a></li>
+              <li><a href="" class="text-white">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="box wow animate__flash">
+            <ul>
+              <h4>Websites Links</h4>
+              <li><a href="" class="text-white">Home</a></li>
+              <li><a href="" class="text-white">About</a></li>
+              <li><a href="" class="text-white">Portfolio</a></li>
+              <li><a href="" class="text-white">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--End footer-->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  <!--Start section scroll to top-->
+  <section class="scroll">
+    <span class="up"><i class="fas fa-arrow-up"></i></span>
+  </section>
+  <!--End section scroll to top-->
 
 
   <!--Bootstrap Js File-->

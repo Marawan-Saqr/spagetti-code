@@ -65,6 +65,19 @@ body {
   background-color: black;
   border-radius: 5px;
 }
+/* Start Media For Section top-navbar */
+@media (max-width: 767px) {
+  .top-navbar .nav-item .nav-link {
+    padding-left: 5px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .top-navbar .nav-item .nav-link {
+    padding-left: 5px;
+  }
+}
+/* End Media For Section top-navbar */
 /* End Section top-navbar */
 
 /* Start Section page-cover */
@@ -120,6 +133,10 @@ body {
 /* Start Section about */
 .about {
   overflow: hidden;
+}
+
+.about .left h2 span {
+  color: orange;
 }
 
 .about .left .continue-application {
@@ -333,8 +350,21 @@ body {
 }
 
 .about .right img {
-  border-radius: 50%;
+  border-radius: 25%;
 }
+/* Start Media For Section about */
+@media (max-width: 767px) {
+  .about .left {
+    margin-bottom: 50px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .about .left {
+    margin-bottom: 50px;
+  }
+}
+/* End Media For Section about */
 /* End Section about */
 
 /* Start Section why-choose-us */
@@ -342,24 +372,136 @@ body {
   font-size: 84px;
   color: orange;
 }
+
+.why-choose-us h2 span {
+  color: orange;
+}
+/* Start Media For Section why-chhose-us */
+@media (max-width: 767px) {
+  .why-choose-us .box {
+    margin-bottom: 50px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .why-choose-us .box {
+    margin-bottom: 50px;
+  }
+}
+/* End Media For Section why-choose-us */
 /* End Section why-choose-us */
 
+/* Start Section trip */
+.trip h2 span {
+  color: orange;
+}
+/* End Section trip */
+
 /* Start Section our-team */
+.our-team h2 span {
+  color: orange;
+}
+
 .our-team img {
   border-radius: 80%;
   height: 254px;
 }
+/* Start Media For Section our-team */
+@media (max-width: 767px) {
+  .our-team .box {
+    margin-bottom: 50px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .our-team .box {
+    margin-bottom: 50px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .our-team .box {
+    margin-bottom: 50px;
+  }
+}
+/* End Media For Section our-team */
 /* End Section our-team */
 
+/* Start Section contact */
+.contact {
+  background-color: #eaeaea;
+  line-height: 2.2;
+}
+
+.contact h2 span {
+  color: orange;
+}
+
+.contact .box {
+  align-items: baseline;
+}
+
+.contact .box svg {
+  margin-right: 30px;
+}
+
+.contact .box span {
+  color: orange;
+}
+/* End Section contact */
+
 /* Start footer */
-footer ul {
+footer .box ul {
   list-style-type: none;
 }
 
-footer ul li a {
+footer .box ul h4 span {
+  color: orange;
+}
+
+footer .box ul li a {
+  transition: all 0.5s;
   text-decoration: none;
 }
+
+footer .box ul li a:hover {
+  color: orange !important;
+  transition: all 0.5s;
+}
+
+footer h2 span {
+  color: orange;
+}
+/* Start Media For footer */
+@media (max-width: 767px) {
+  footer .box {
+    margin-bottom: 50px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  footer .box {
+    margin-bottom: 50px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  footer .box {
+    margin-bottom: 50px;
+  }
+}
+/* End Media For footer */
 /* End footer */
+
+/* Start Section copy-rights */
+.copy-rights {
+  background-color: #1a1a1a;
+}
+
+.copy-rights h4 {
+  margin: 0px;
+}
+/* End Section copy-rights */
 
 /* Start section scroll */
 .up {

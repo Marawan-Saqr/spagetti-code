@@ -397,6 +397,34 @@ body {
 }
 /* End Section trip */
 
+/* Start Section our-service */
+.our-service svg {
+  color: orange;
+  animation-name: rotator;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rotator {
+  25% {
+    transform: rotate(90deg);
+  }
+
+  50% {
+    transform: rotate(180deg);
+  }
+
+  75% {
+    transform: rotate(270deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/* End Section our-service */
+
 /* Start Section our-team */
 .our-team h2 span {
   color: orange;
@@ -471,6 +499,136 @@ footer .box ul li a:hover {
 
 footer h2 span {
   color: orange;
+}
+
+footer .main {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+footer .part-up {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5em;
+}
+
+footer .part-down {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5em;
+}
+
+footer .card1 {
+  width: 90px;
+  height: 90px;
+  outline: none;
+  border: none;
+  background: white;
+  border-radius: 90px 5px 5px 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: 0.2s ease-in-out;
+}
+
+footer .instagram {
+  margin-top: 1.5em;
+  margin-left: 1.2em;
+  fill: #cc39a4;
+}
+
+footer .card2 {
+  width: 90px;
+  height: 90px;
+  outline: none;
+  border: none;
+  background: white;
+  border-radius: 5px 90px 5px 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: 0.2s ease-in-out;
+}
+
+footer .facebook {
+  margin-top: 1.5em;
+  margin-left: -0.9em;
+  fill: #03a9f4;
+}
+
+footer .card3 {
+  width: 90px;
+  height: 90px;
+  outline: none;
+  border: none;
+  background: white;
+  border-radius: 5px 5px 5px 90px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: 0.2s ease-in-out;
+}
+
+footer .whatsapp {
+  margin-top: -0.6em;
+  margin-left: 1.2em;
+  fill: #00ff00;
+}
+
+footer .card4 {
+  width: 90px;
+  height: 90px;
+  outline: none;
+  border: none;
+  background: white;
+  border-radius: 5px 5px 90px 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: 0.2s ease-in-out;
+}
+
+footer .youtube {
+  margin-top: -0.9em;
+  margin-left: -1.2em;
+  fill: #f14336;
+}
+
+footer .card1:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background-color: #cc39a4;
+}
+
+footer .card1:hover .instagram {
+  fill: white;
+}
+
+footer .card2:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background-color: #1877f2;
+}
+
+footer .card2:hover .facebook {
+  fill: white;
+}
+
+footer .card3:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background-color: #00ff00;
+}
+
+footer .card3:hover .whatsapp {
+  fill: white;
+}
+
+footer .card4:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background-color: #ff0004;
+}
+
+footer .card4:hover .youtube {
+  fill: white;
 }
 /* Start Media For footer */
 @media (max-width: 767px) {

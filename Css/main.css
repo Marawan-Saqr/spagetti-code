@@ -1,6 +1,6 @@
 /* Start My Personal Theme */
 body {
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 
 ::-webkit-scrollbar {
@@ -12,47 +12,23 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: orange;
+  background-color: #2bd376;
 }
 /* End My Personal Theme */
 
 /* Start Section top-navbar */
 .top-navbar {
-  border-bottom: 2px solid orange;
+  border-bottom: 2px solid #2bd376;
 }
 
 /* Start Section top-navbar */
 .top-navbar .navbar-brand img {
   max-width: 40px;
-  animation-name: rotator;
-  animation-duration: 3s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-  border: 1px solid black;
-  border-radius: 50%;
   margin-right: 5px;
 }
 
-@keyframes rotator {
-  25% {
-    transform: rotate(90deg);
-  }
-
-  50% {
-    transform: rotate(180deg);
-  }
-
-  75% {
-    transform: rotate(270deg);
-  }
-
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
 .top-navbar .navbar-brand span {
-  color: orange;
+  color: #2bd376;
 }
 
 .top-navbar .nav-item .nav-link {
@@ -61,7 +37,7 @@ body {
 
 .top-navbar .nav-item .nav-link:hover {
   transition: all 0.5s;
-  color: orange !important;
+  color: #2bd376 !important;
   background-color: black;
   border-radius: 5px;
 }
@@ -82,14 +58,14 @@ body {
 
 /* Start Section page-cover */
 .page-cover {
-  background-image: url("../assets/Images/Cover.jpg");
+  background-image: url("../assets/Images/web/Cover.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 10px 0;
   height: 80vh;
   position: relative;
-  border-bottom: 2px solid orange;
+  border-bottom: 2px solid #2bd376;
 }
 
 .page-cover::before {
@@ -113,7 +89,7 @@ body {
 }
 
 .page-cover .content h1 span {
-  color: orange;
+  color: #2bd376;
 }
 /* Start Media For Section page-cover */
 @media (max-width: 767px) {
@@ -136,7 +112,7 @@ body {
 }
 
 .about .left h2 span {
-  color: orange;
+  color: #2bd376;
 }
 
 .about .left .continue-application {
@@ -370,11 +346,11 @@ body {
 /* Start Section why-choose-us */
 .why-choose-us svg {
   font-size: 84px;
-  color: orange;
+  color: #2bd376;
 }
 
 .why-choose-us h2 span {
-  color: orange;
+  color: #2bd376;
 }
 /* Start Media For Section why-chhose-us */
 @media (max-width: 767px) {
@@ -393,41 +369,24 @@ body {
 
 /* Start Section trip */
 .trip h2 span {
-  color: orange;
+  color: #2bd376;
 }
 /* End Section trip */
 
 /* Start Section our-service */
-.our-service svg {
-  color: orange;
-  animation-name: rotator;
-  animation-duration: 3s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
+.our-service h2 span {
+  color: #2bd376;
 }
 
-@keyframes rotator {
-  25% {
-    transform: rotate(90deg);
-  }
-
-  50% {
-    transform: rotate(180deg);
-  }
-
-  75% {
-    transform: rotate(270deg);
-  }
-
-  100% {
-    transform: rotate(360deg);
-  }
+.our-service svg {
+  color: #2bd376;
+  font-size: 30px;
 }
 /* End Section our-service */
 
 /* Start Section our-team */
 .our-team h2 span {
-  color: orange;
+  color: #2bd376;
 }
 
 .our-team img {
@@ -462,7 +421,7 @@ body {
 }
 
 .contact h2 span {
-  color: orange;
+  color: #2bd376;
 }
 
 .contact .box {
@@ -474,7 +433,7 @@ body {
 }
 
 .contact .box span {
-  color: orange;
+  color: #2bd376;
 }
 /* End Section contact */
 
@@ -484,7 +443,7 @@ footer .box ul {
 }
 
 footer .box ul h4 span {
-  color: orange;
+  color: #2bd376;
 }
 
 footer .box ul li a {
@@ -493,12 +452,12 @@ footer .box ul li a {
 }
 
 footer .box ul li a:hover {
-  color: orange !important;
+  color: #2bd376 !important;
   transition: all 0.5s;
 }
 
 footer h2 span {
-  color: orange;
+  color: #2bd376;
 }
 
 footer .main {
@@ -567,10 +526,10 @@ footer .card3 {
   transition: 0.2s ease-in-out;
 }
 
-footer .whatsapp {
+footer .linkedin {
   margin-top: -0.6em;
   margin-left: 1.2em;
-  fill: #00ff00;
+  fill: blue;
 }
 
 footer .card4 {
@@ -614,10 +573,10 @@ footer .card2:hover .facebook {
 footer .card3:hover {
   cursor: pointer;
   scale: 1.1;
-  background-color: #00ff00;
+  background-color: blue;
 }
 
-footer .card3:hover .whatsapp {
+footer .card3:hover .linkedin {
   fill: white;
 }
 
@@ -666,7 +625,7 @@ footer .card4:hover .youtube {
   position: fixed;
   bottom: 20px;
   left: -40px;
-  background-color: orange;
+  background-color: #2bd376;
   color: #fff;
   font-weight: bold;
   font-size: 14px;

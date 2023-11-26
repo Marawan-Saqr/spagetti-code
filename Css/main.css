@@ -58,7 +58,7 @@ body {
 
 /* Start Section page-cover */
 .page-cover {
-  background-image: url("../assets/Images/5.jpg");
+  background-image: url("../assets/Images/cover.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

@@ -589,6 +589,25 @@ footer .card4:hover {
 footer .card4:hover .youtube {
   fill: white;
 }
+
+footer .whats-button {
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+footer .btn-whats {
+  background-color: green;
+  color: #fff;
+  border-radius: 6px;
+  border: none;
+  transition: all 0.5s;
+  padding: 10px 15px;
+}
+
+footer .btn-whats:hover {
+  background-color: red;
+  transition: all 0.5s;
+}
 /* Start Media For footer */
 @media (max-width: 767px) {
   footer .box {

@@ -373,6 +373,12 @@ body {
 }
 /* End Section trip */
 
+/* Start Section our-mission */
+.our-mission h2 span {
+  color: #2bd376;
+}
+/* End Section our-mission */
+
 /* Start Section our-service */
 .our-service h2 span {
   color: #2bd376;

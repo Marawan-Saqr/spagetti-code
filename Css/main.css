@@ -58,7 +58,7 @@ body {
 
 /* Start Section page-cover */
 .page-cover {
-  background-image: url("../assets/Images/web/Cover.webp");
+  background-image: url("../assets/Images/web/cover.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -383,36 +383,6 @@ body {
   font-size: 30px;
 }
 /* End Section our-service */
-
-/* Start Section our-team */
-.our-team h2 span {
-  color: #2bd376;
-}
-
-.our-team img {
-  border-radius: 80%;
-  height: 254px;
-}
-/* Start Media For Section our-team */
-@media (max-width: 767px) {
-  .our-team .box {
-    margin-bottom: 50px;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  .our-team .box {
-    margin-bottom: 50px;
-  }
-}
-
-@media (min-width: 992px) and (max-width: 1199px) {
-  .our-team .box {
-    margin-bottom: 50px;
-  }
-}
-/* End Media For Section our-team */
-/* End Section our-team */
 
 /* Start Section contact */
 .contact {
